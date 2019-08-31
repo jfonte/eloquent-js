@@ -20,9 +20,21 @@
 //console.log("five"*2);
 //console.log(false == 0);
 
-console.log(null || "user");
-console.log("agnes" || "user");
+// shortcircuit evaluation
 
-console.log(null && "user");
-console.log("agnes" && "user");
+//console.log(null || "user");
+//console.log("agnes" || "user");
+//
+//console.log(null && "user");
+//console.log("agnes" && "user");
 
+// BINDINGS or variables
+
+let name1 = 'joshua';
+console.log(name1);
+
+let one = 1, two = 2;
+console.log(one +two);
+
+let $name1 = 'james';
+console.log($name1, name1);
